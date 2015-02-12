@@ -1,4 +1,5 @@
 compile:
+	npm install
 	coffee --map --output bin --compile ./app.coffee
 	browserify bin/app.js -o bin/bundle.js
 	cp index.html bin/index.html
