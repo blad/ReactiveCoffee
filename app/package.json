@@ -1,0 +1,13 @@
+{
+  "name": "ReactApp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "http-server": "*",
+    "jade": "1.9.1",
+    "react": "0.12.2"
+  }
+}
