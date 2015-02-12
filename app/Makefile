@@ -4,7 +4,7 @@ compile:
 	browserify bin/app.js -o bin/bundle.js
 	cp index.html bin/index.html
 
-serve:
+serve: compile
 	node ./node_modules/http-server/bin/http-server -o -p 3000 -d ./bin/
 
 clean:
